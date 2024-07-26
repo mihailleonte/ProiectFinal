@@ -11,7 +11,7 @@ import org.testng.annotations.*;
 
 import java.time.Duration;
 
-public class AddToCartTest {
+public class CheckOut {
     WebDriver driver;
 
     String url = "https://www.saucedemo.com/";
@@ -22,21 +22,17 @@ public class AddToCartTest {
         driver = new ChromeDriver();
         driver.get(url);
         driver.manage().window().maximize();
-        //
         WebElement usernameInput = driver.findElement(By.cssSelector("input#user-name"));
         usernameInput.sendKeys("standard_user");
-        //
         WebElement passwordInput = driver.findElement(By.cssSelector("input#password"));
         passwordInput.sendKeys("secret_sauce");
-        //
         WebElement loginButton = driver.findElement(By.cssSelector("input#login-button"));
         loginButton.click();
-
     }
 
 
     @Test
-    public void addToCart(){
+    public void Checkout(){
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
@@ -54,16 +50,38 @@ public class AddToCartTest {
         WebElement viewCart = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div#shopping_cart_container > .shopping_cart_link")));
         viewCart.click();
 
-        //Check the cart
-        WebElement cartBadge = driver.findElement(By.cssSelector(".shopping_cart_badge"));
-        String expectedCartItems = "2";
-        String actualCartItems = cartBadge.getText();
-        Assert.assertTrue(actualCartItems.contains(expectedCartItems));
+        //Click CheckOut
+        WebElement checkOut = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button#checkout")));
+        checkOut.click();
 
+        //Enter first name
+        WebElement firstName = driver.findElement(By.cssSelector("input#first-name"));
+        firstName.sendKeys("Leonte");
 
+        //Enter last name
+        WebElement lastName = driver.findElement(By.cssSelector("input#last-name"));
+        lastName.sendKeys("Mihail");
+
+        //Enter zipcode
+        WebElement zipCode = driver.findElement(By.cssSelector("input#postal-code"));
+        zipCode.sendKeys("700210");
+
+        //Click continue
+        WebElement continueButton = driver.findElement(By.cssSelector("input#continue"));
+        continueButton.click();
+
+        //Click finish
+
+        WebElement finish = driver.findElement(By.cssSelector("button#finish"));
+        finish.click();
+
+        //Check message
+        WebElement message = driver.findElement(By.cssSelector("div#checkout_complete_container > .complete-header"));
+        String expectedMessage = "Thank you for your order!";
+        String actualMessage = message.getText();
+        Assert.assertTrue(actualMessage.contains(expectedMessage));
 
     }
-
 
     public void wait(int milliseconds) {
         try {
@@ -73,3 +91,4 @@ public class AddToCartTest {
         }
     }
 }
+

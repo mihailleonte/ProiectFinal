@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81a35f2-b5a6-4afa-8902-c9e2eae0d231" name="Changes" comment="proiect final">
+    <list default="true" id="b81a35f2-b5a6-4afa-8902-c9e2eae0d231" name="Changes" comment="second">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/AddToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/CheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/CheckOut.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,37 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.sssss$AddToCartTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.AddToCartTest.addToCart (1).executor": "Run",
-    "TestNG.AddToCartTest.addToCart.executor": "Run",
-    "TestNG.AddToCartTest.executor": "Run",
-    "TestNG.AddToCartTest.login.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mihail/IdeaProjects/ProiectFinalExemplu",
-    "onboarding.tips.debug.path": "C:/Users/Mihail/IdeaProjects/ProiectFinalLeonteMihail/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.sssss$AddToCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.AddToCartTest.addToCart (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddToCartTest.addToCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddToCartTest.checkOutTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddToCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddToCartTest.login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckOut.Checkout.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckOut.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutWithoutCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login.login.executor&quot;: &quot;Coverage&quot;,
+    &quot;TestNG.RemoveFromCart.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mihail/IdeaProjects/ProiectFinalExemplu&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Mihail/IdeaProjects/ProiectFinalLeonteMihail/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.AddToCartTest">
-    <configuration name="sssss$AddToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProiectFinalLeonteMihail" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="electriccastle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="electriccastle.sssss" />
-      <option name="MAIN_CLASS_NAME" value="electriccastle.sssss$AddToCartTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="TestNG.Login">
     <configuration name="AddToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProiectFinalLeonteMihail" />
       <extension name="coverage">
@@ -80,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddToCartTest.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckOut" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProiectFinalLeonteMihail" />
       <extension name="coverage">
         <pattern>
@@ -89,16 +83,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.saucedemo" />
-      <option name="MAIN_CLASS_NAME" value="com.saucedemo.AddToCartTest" />
-      <option name="METHOD_NAME" value="addToCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.CheckOut" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddToCartTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckoutWithoutCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProiectFinalLeonteMihail" />
       <extension name="coverage">
         <pattern>
@@ -107,9 +100,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.saucedemo" />
-      <option name="MAIN_CLASS_NAME" value="com.saucedemo.AddToCartTest" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.CheckoutWithoutCredentials" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinalLeonteMihail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinalLeonteMihail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.RemoveFromCart" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -118,10 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Login" />
+        <item itemvalue="TestNG.CheckoutWithoutCredentials" />
+        <item itemvalue="TestNG.RemoveFromCart" />
+        <item itemvalue="TestNG.CheckOut" />
         <item itemvalue="TestNG.AddToCartTest" />
-        <item itemvalue="TestNG.AddToCartTest.addToCart" />
-        <item itemvalue="TestNG.AddToCartTest.login" />
-        <item itemvalue="JUnit.sssss$AddToCartTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,11 +193,66 @@
       <option name="project" value="LOCAL" />
       <updated>1721949502062</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="proiect final">
+      <option name="closed" value="true" />
+      <created>1721954202087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721954202087</updated>
+    </task>
+    <task id="LOCAL-00006" summary="proiect final">
+      <option name="closed" value="true" />
+      <created>1721954250215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721954250215</updated>
+    </task>
+    <task id="LOCAL-00007" summary="proiect final">
+      <option name="closed" value="true" />
+      <created>1721954573464</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721954573464</updated>
+    </task>
+    <task id="LOCAL-00008" summary="123">
+      <option name="closed" value="true" />
+      <created>1721954590563</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721954590563</updated>
+    </task>
+    <task id="LOCAL-00009" summary="123">
+      <option name="closed" value="true" />
+      <created>1721954604419</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721954604419</updated>
+    </task>
+    <task id="LOCAL-00010" summary="second">
+      <option name="closed" value="true" />
+      <created>1721960438263</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721960438263</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="proiect final" />
-    <option name="LAST_COMMIT_MESSAGE" value="proiect final" />
+    <MESSAGE value="123" />
+    <MESSAGE value="second" />
+    <option name="LAST_COMMIT_MESSAGE" value="second" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProiectFinalLeonteMihail$Login_login.ic" NAME="Login.login Coverage Results" MODIFIED="1721962961243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.saucedemo.*</FILTER>
+    </SUITE>
   </component>
 </project>

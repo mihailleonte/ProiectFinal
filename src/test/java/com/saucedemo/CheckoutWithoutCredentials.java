@@ -1,5 +1,4 @@
-package com.saucedemo;
-import org.openqa.selenium.By;
+package com.saucedemo;import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,7 +10,8 @@ import org.testng.annotations.*;
 
 import java.time.Duration;
 
-public class AddToCartTest {
+public class CheckoutWithoutCredentials {
+
     WebDriver driver;
 
     String url = "https://www.saucedemo.com/";
@@ -22,21 +22,17 @@ public class AddToCartTest {
         driver = new ChromeDriver();
         driver.get(url);
         driver.manage().window().maximize();
-        //
         WebElement usernameInput = driver.findElement(By.cssSelector("input#user-name"));
         usernameInput.sendKeys("standard_user");
-        //
         WebElement passwordInput = driver.findElement(By.cssSelector("input#password"));
         passwordInput.sendKeys("secret_sauce");
-        //
         WebElement loginButton = driver.findElement(By.cssSelector("input#login-button"));
         loginButton.click();
-
     }
 
 
     @Test
-    public void addToCart(){
+    public void Checkout(){
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
@@ -54,16 +50,34 @@ public class AddToCartTest {
         WebElement viewCart = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div#shopping_cart_container > .shopping_cart_link")));
         viewCart.click();
 
-        //Check the cart
-        WebElement cartBadge = driver.findElement(By.cssSelector(".shopping_cart_badge"));
-        String expectedCartItems = "2";
-        String actualCartItems = cartBadge.getText();
-        Assert.assertTrue(actualCartItems.contains(expectedCartItems));
+        //Click CheckOut
+        WebElement checkOut = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button#checkout")));
+        checkOut.click();
+
+        //Leave the field empty
+        WebElement firstName = driver.findElement(By.cssSelector("input#first-name"));
+        firstName.sendKeys("");
+
+        //Enter last name
+        WebElement lastName = driver.findElement(By.cssSelector("input#last-name"));
+        lastName.sendKeys("Mihail");
+
+        //Enter zipcode
+        WebElement zipCode = driver.findElement(By.cssSelector("input#postal-code"));
+        zipCode.sendKeys("700210");
+
+        //Click continue
+        WebElement continueButton = driver.findElement(By.cssSelector("input#continue"));
+        continueButton.click();
 
 
+        //Check message
+        WebElement message = driver.findElement(By.cssSelector("h3"));
+        String expectedMessage = "Error: First Name is required";
+        String actualMessage = message.getText();
+        Assert.assertTrue(actualMessage.contains(expectedMessage));
 
     }
-
 
     public void wait(int milliseconds) {
         try {
@@ -73,3 +87,6 @@ public class AddToCartTest {
         }
     }
 }
+
+
+
