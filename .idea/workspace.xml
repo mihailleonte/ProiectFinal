@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81a35f2-b5a6-4afa-8902-c9e2eae0d231" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/AddToCartTest.java" afterDir="false" />
+    <list default="true" id="b81a35f2-b5a6-4afa-8902-c9e2eae0d231" name="Changes" comment="proiect final">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/AddToCartTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.sssss$AddToCartTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.AddToCartTest.addToCart (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddToCartTest.addToCart.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddToCartTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddToCartTest.login.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mihail/IdeaProjects/ProiectFinalExemplu&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Mihail/IdeaProjects/ProiectFinalLeonteMihail/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.sssss$AddToCartTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AddToCartTest.addToCart (1).executor": "Run",
+    "TestNG.AddToCartTest.addToCart.executor": "Run",
+    "TestNG.AddToCartTest.executor": "Run",
+    "TestNG.AddToCartTest.login.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Mihail/IdeaProjects/ProiectFinalExemplu",
+    "onboarding.tips.debug.path": "C:/Users/Mihail/IdeaProjects/ProiectFinalLeonteMihail/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.AddToCartTest.login">
+}]]></component>
+  <component name="RunManager" selected="TestNG.AddToCartTest">
     <configuration name="sssss$AddToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProiectFinalLeonteMihail" />
       <extension name="coverage">
@@ -116,9 +118,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddToCartTest.login" />
         <item itemvalue="TestNG.AddToCartTest" />
         <item itemvalue="TestNG.AddToCartTest.addToCart" />
+        <item itemvalue="TestNG.AddToCartTest.login" />
         <item itemvalue="JUnit.sssss$AddToCartTest" />
       </list>
     </recent_temporary>
@@ -132,6 +134,43 @@
       <option name="presentableId" value="Default" />
       <updated>1721881565039</updated>
     </task>
+    <task id="LOCAL-00001" summary="proiect final">
+      <option name="closed" value="true" />
+      <created>1721949134975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721949134975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="proiect final">
+      <option name="closed" value="true" />
+      <created>1721949195612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721949195612</updated>
+    </task>
+    <task id="LOCAL-00003" summary="proiect final">
+      <option name="closed" value="true" />
+      <created>1721949263516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721949263516</updated>
+    </task>
+    <task id="LOCAL-00004" summary="proiect final">
+      <option name="closed" value="true" />
+      <created>1721949502062</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721949502062</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="proiect final" />
+    <option name="LAST_COMMIT_MESSAGE" value="proiect final" />
   </component>
 </project>
