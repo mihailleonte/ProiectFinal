@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b81a35f2-b5a6-4afa-8902-c9e2eae0d231" name="Changes" comment="second" />
+    <list default="true" id="b81a35f2-b5a6-4afa-8902-c9e2eae0d231" name="Changes" comment="1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/saucedemo/CheckoutWithoutCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saucedemo/CheckoutWithoutCredentials.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,47 +32,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.sssss$AddToCartTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.AddToCartTest.addToCart (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddToCartTest.addToCart.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddToCartTest.checkOutTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddToCartTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AddToCartTest.login.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CheckOut.Checkout.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CheckOut.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CheckoutWithoutCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login.login.executor&quot;: &quot;Coverage&quot;,
-    &quot;TestNG.RemoveFromCart.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mihail/IdeaProjects/ProiectFinalExemplu&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Mihail/IdeaProjects/ProiectFinalLeonteMihail/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.sssss$AddToCartTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AddToCartTest.addToCart (1).executor": "Run",
+    "TestNG.AddToCartTest.addToCart.executor": "Run",
+    "TestNG.AddToCartTest.checkOutTest.executor": "Run",
+    "TestNG.AddToCartTest.executor": "Run",
+    "TestNG.AddToCartTest.login.executor": "Run",
+    "TestNG.CheckOut.Checkout.executor": "Run",
+    "TestNG.CheckOut.executor": "Run",
+    "TestNG.CheckoutWithoutCredentials.Checkout.executor": "Run",
+    "TestNG.CheckoutWithoutCredentials.executor": "Run",
+    "TestNG.Login.executor": "Run",
+    "TestNG.Login.login.executor": "Coverage",
+    "TestNG.RemoveFromCart.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Mihail/IdeaProjects/ProiectFinalExemplu",
+    "onboarding.tips.debug.path": "C:/Users/Mihail/IdeaProjects/ProiectFinalLeonteMihail/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Login">
-    <configuration name="AddToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProiectFinalLeonteMihail" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.saucedemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.saucedemo" />
-      <option name="MAIN_CLASS_NAME" value="com.saucedemo.AddToCartTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="TestNG.CheckoutWithoutCredentials">
     <configuration name="CheckOut" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProiectFinalLeonteMihail" />
       <extension name="coverage">
@@ -98,6 +85,24 @@
       <option name="PACKAGE_NAME" value="com.saucedemo" />
       <option name="MAIN_CLASS_NAME" value="com.saucedemo.CheckoutWithoutCredentials" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutWithoutCredentials.Checkout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinalLeonteMihail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.CheckoutWithoutCredentials" />
+      <option name="METHOD_NAME" value="Checkout" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -140,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Login" />
         <item itemvalue="TestNG.CheckoutWithoutCredentials" />
-        <item itemvalue="TestNG.RemoveFromCart" />
+        <item itemvalue="TestNG.CheckoutWithoutCredentials.Checkout" />
         <item itemvalue="TestNG.CheckOut" />
-        <item itemvalue="TestNG.AddToCartTest" />
+        <item itemvalue="TestNG.Login" />
+        <item itemvalue="TestNG.RemoveFromCart" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721968217948</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1.0">
+      <option name="closed" value="true" />
+      <created>1721968250159</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721968250159</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,7 +266,8 @@
     <MESSAGE value="123" />
     <MESSAGE value="1" />
     <MESSAGE value="second" />
-    <option name="LAST_COMMIT_MESSAGE" value="second" />
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProiectFinalLeonteMihail$Login_login.ic" NAME="Login.login Coverage Results" MODIFIED="1721962961243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
